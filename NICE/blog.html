@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NICE WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&amp;family=Poppins:ital,wght@1,200&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- edit from here  -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="/images/LOGO.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <!-- edit upto here -->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">EVENT</a></li>
+                    <li><a href="blog.html">TEAM</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <a href="index.html"><img src="/images/college_logo.jpg"></a>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Team member page</h1>
+    </section>
+<!-- blog page content -->
+            <section class="facilities">
+                <h1>Professor incharge and co-ordinator of startup cell </h1>
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="/images/shubhendu.jpg">
+                        <h3>Professor Incharge</h3>
+                        <!-- library img -->
+                    </div>
+                    <div class="facilities-col">
+                        <img src="/images/SANTOSH.jpg">
+                        <h3>Co-ordinator</h3>
+                        <!-- basket ball img -->
+                    </div>
+                </div>
+                </section>
+                <section class="facilities">
+                    <h1>Students Representative </h1>
+                <!-- another profile -->
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="/images/nikhil.jpg">
+                        <h3>Poster and PPT maker</h3>
+                        <!-- library img -->
+                    </div>
+                    <div class="facilities-col">
+                        <img src="/images/riya-pro.jpg">
+                        <h3>Anchoring</h3>
+                        <!-- basket ball img -->
+                    </div>
+                    <div class="facilities-col">
+                        <img src="/images/raushan.jpg">
+                        <h3>Program volunteer</h3>
+                        <!-- cafetria img -->
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="Students-col">
+                        <img src="/images/zaid.jpg">
+                        <h3>Content Writting</h3>
+                        <!-- library img -->
+                    </div>
+                    <div class="Students-col">
+                        <img src="/images/prashant.jpg">
+                        <h3>Social medial handler</h3>
+                        <!-- basket ball img -->
+                    </div>
+            </section>
+
+<div class="comment-box">
+    <h3>Leave a Comment</h3>
+    <form class="comment-form">
+        <input type="email" placeholder="Enter Emails">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+</section>
+<!-- footer -->
+<section class="footer">
+    <h4>Follow Us On</h4>
+         <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=61554446215502&mibextid=9R9pXO">
+            <img src="/images/facebook (1).png">
+        </a>
+        <a href="https://x.com/NICE_Gecn?t=0y-Qmyd5C6L3g9m9Pq1Hvg&s=08">
+            <img src="/images/twitter.png">
+        </a>
+        <a href="https://instagram.com/startupgecn?utm_source=qr&igshid=OGIxMTE0OTdkZA==">
+            <img src="/images/social.png">
+        </a>
+        <a href="https://www.youtube.com/@STARTUPGECN">
+            <img src="/images/youtube.png">
+        </a>
+        <a href="https://www.linkedin.com/in/gecn-startup-b0435628b">
+            <img src="/images/linkedin.png">
+        </a>
+        
+         </div>
+</section>
+
+
+    <!-- java script for toggle menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- java end here
+     -->
+</body>
+</html>
